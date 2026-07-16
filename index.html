@@ -1,0 +1,154 @@
+<div class="page-shell">
+
+  <div class="topbar">
+    <p>Zipaquirá, Cundinamarca | Envíos nacionales</p>
+    <div class="topbar-links">
+      <a href="https://wa.me/573186848158" target="_blank">WhatsApp</a>
+      <a href="https://www.instagram.com/tu_cuenta_maquillaje" target="_blank">Instagram</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="brand-row">
+          <div class="logo-space">
+            <img src="assets/images/logo-makeup.png" alt="Logo Andrea Makeup">
+          </div>
+
+          <div>
+            <p class="eyebrow">Cosmética natural y tonos tierra en Zipaquirá</p>
+            <h1>Andrea Makeup</h1>
+            <p class="hero-text">
+              Resalta tu belleza natural con nuestra exclusiva selección de maquillaje. 
+              Fórmulas orgánicas, tonos cafés, nudes y terracotas perfectos para un acabado 
+              sofisticado, saludable y de larga duración.
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#catalogo" class="btn btn-primary">Ver catálogo</a>
+          <a href="https://wa.me/573186848158" target="_blank" class="btn btn-secondary">Asesoría por WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Compra segura</h3>
+        <ul>
+          <li>Pago contra entrega en Zipaquirá, Nequi o Daviplata</li>
+          <li>Envíos rápidos a todo el país</li>
+          <li>Productos 100% libres de crueldad animal</li>
+          <li>Asesoría personalizada para tu tono de piel</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="beneficios-section">
+    <div class="beneficio-card">🚚 Domicilios en Zipaquirá</div>
+    <div class="beneficio-card">💳 Contra entrega / Transferencia</div>
+    <div class="beneficio-card">🌿 Cruelty Free & Orgánico</div>
+    <div class="beneficio-card">✨ Tonos tierra y nudes</div>
+  </section>
+
+  <section class="filtros-panel" id="catalogo">
+    <div>
+      <p class="section-kicker">Catálogo</p>
+      <h2>Explora la colección</h2>
+    </div>
+
+    <div class="filtros">
+      <select id="categoria">
+        <option value="todos">Todas las categorías</option>
+        <option value="Labiales">Labiales</option>
+        <option value="Paletas">Paletas de Sombras</option>
+        <option value="Rostro">Rubores e Iluminadores</option>
+      </select>
+
+      <select id="ordenar">
+        <option value="default">Ordenar por</option>
+        <option value="menor-precio">Menor precio</option>
+        <option value="mayor-precio">Mayor precio</option>
+        <option value="nombre">Nombre</option>
+      </select>
+    </div>
+  </section>
+
+  <main class="layout">
+    <section id="productos" class="productos"></section>
+
+    <aside class="carrito">
+      <div class="carrito-header">
+        <div>
+          <p class="section-kicker">Tu pedido</p>
+          <h2>Carrito</h2>
+        </div>
+        <span class="badge-cantidad" id="cantidad-carrito">0</span>
+      </div>
+
+      <ul id="lista-carrito" class="lista-carrito"></ul>
+
+      <div class="resumen">
+        <p>Subtotal</p>
+        <strong id="total">$0</strong>
+      </div>
+
+      <p class="metodos-pago">Pagos: Nequi, Daviplata y Efectivo contra entrega.</p>
+
+      <div class="carrito-botones">
+        <button class="btn btn-light" onclick="vaciarCarrito()">Vaciar</button>
+        <button class="btn btn-primary" onclick="finalizarCompra()">Pedir ahora</button>
+      </div>
+    </aside>
+  </main>
+
+  <section class="extra-section">
+    <div class="section-title">
+      <p class="section-kicker">Favoritos</p>
+      <h2>Recomendados para ti</h2>
+    </div>
+    <div id="recomendados" class="productos"></div>
+  </section>
+
+  <section class="extra-section">
+    <div class="section-title">
+      <p class="section-kicker">Más votados</p>
+      <h2>Top de la tienda</h2>
+    </div>
+    <div id="top-elo" class="ranking-grid"></div>
+  </section>
+
+  <section class="extra-section">
+    <div class="section-title">
+      <p class="section-kicker">Interactúa</p>
+      <h2>Elige tu favorita</h2>
+    </div>
+    <div id="duelo-container" class="duelo"></div>
+  </section>
+
+  <footer class="footer">
+    <div>
+      <h3>Andrea Makeup</h3>
+      <p>
+        Realzamos tu belleza con cosméticos de alta calidad en tonos tierras y fórmulas 
+        que cuidan de tu piel.
+      </p>
+    </div>
+
+    <div>
+      <h4>Contacto</h4>
+      <p>Zipaquirá, Cundinamarca</p>
+      <p>WhatsApp: 3186848158</p>
+      <p>Entregas: Domicilios y Envíos</p>
+    </div>
+
+    <div>
+      <h4>Redes</h4>
+      <a href="https://www.instagram.com/tu_cuenta_maquillaje" target="_blank">Instagram</a>
+      <a href="https://wa.me/573186848158" target="_blank">WhatsApp</a>
+    </div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/573186848158" target="_blank" aria-label="WhatsApp">💬</a>
+</div>
